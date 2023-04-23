@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+* a {
+  text-decoration: none;
+}
+
+main {
+  background-color: #c4dee0;
+  height: 100vh !important;
+}
+main > div > section {
+  height: 600px;
+  width: 400px !important;
+  border-radius: 10px;
+  background-color: #deefe2;
+  box-shadow: 0 0 0 2px #ffffff;
+}
+main > div > section > figure > img {
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+main > div > section > form {
+  /*  >span{
+     color: red;
+   } */
+  width: 100%;
+  width: 100%;
+}
+main > div > section > form > label {
+  color: #03042c;
+}
+main > div > section > form > input {
+  width: 97% !important;
+  height: 50px;
+  border: none;
+  outline: none;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 7px;
+}
+main > div > section > form > div {
+  width: 80% !important;
+}
+main > div > section > form > div:nth-of-type(1) {
+  border: 1px solid #fff;
+  border-radius: 7px;
+}
+main > div > section > form > div:nth-of-type(1) > input {
+  width: 85% !important;
+  height: 50px;
+  border: none;
+  outline: none;
+  background: none;
+  color: #09022c;
+}
+main > div > section > form > div:nth-of-type(1) > span {
+  width: 15% !important;
+}
+main > div > section > form > div:nth-of-type(2) > span {
+  width: 15% !important;
+}
+main > div > section > form > div:nth-of-type(2) > span:nth-of-type(1) i {
+  color: #E94235;
+}
+main > div > section > form > div:nth-of-type(2) > span:nth-of-type(2) i {
+  color: #000;
+}
+main > div > section > form > button {
+  width: 160px !important;
+  border: none;
+  background: none;
+  height: 50px;
+  background-color: #055d78;
+  border-radius: 80px;
+  color: #fff;
+}
+
+.notval {
+  color: #E94235;
+}
+
+.validate {
+  color: #008000;
+}/*# sourceMappingURL=style.css.map */
